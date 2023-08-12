@@ -4,26 +4,16 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    About: typeof import('C:/projects/esya23/src/components/about.vue')['default']
-    'About copy': typeof import('C:/projects/esya23/src/components/about copy.vue')['default']
+    About: typeof import('C:/Users/adity/Desktop/Final_Esya/esya-final/src/components/about.vue')['default']
     BxBxlBehance: typeof import('~icons/bx/bxl-behance')['default']
-    BxBxLinkExternal: typeof import('~icons/bx/bx-link-external')['default']
     BxBxlSpotify: typeof import('~icons/bx/bxl-spotify')['default']
     BxBxlTwitter: typeof import('~icons/bx/bxl-twitter')['default']
     BxBxMailSend: typeof import('~icons/bx/bx-mail-send')['default']
     CarbonLogoGithub: typeof import('~icons/carbon/logo-github')['default']
     CarbonLogoInstagram: typeof import('~icons/carbon/logo-instagram')['default']
     CarbonLogoLinkedin: typeof import('~icons/carbon/logo-linkedin')['default']
-    Contact: typeof import('C:/projects/esya23/src/components/contact.vue')['default']
-    Footer: typeof import('C:/projects/esya23/src/components/footer.vue')['default']
-    Notionloader: typeof import('C:/projects/esya23/src/components/notionloader.vue')['default']
-    Page: typeof import('C:/projects/esya23/src/components/page.vue')['default']
-    Project: typeof import('C:/projects/esya23/src/components/project.vue')['default']
-    Small: typeof import('C:/projects/esya23/src/components/small.vue')['default']
-    Speakers: typeof import('C:/projects/esya23/src/components/speakers.vue')['default']
-    Spotify: typeof import('C:/projects/esya23/src/components/spotify.vue')['default']
-    Top: typeof import('C:/projects/esya23/src/components/top.vue')['default']
-    Website: typeof import('C:/projects/esya23/src/components/website.vue')['default']
+    Footer: typeof import('C:/Users/adity/Desktop/Final_Esya/esya-final/src/components/footer.vue')['default']
+    Speakers: typeof import('C:/Users/adity/Desktop/Final_Esya/esya-final/src/components/speakers.vue')['default']
   }
 }
 
