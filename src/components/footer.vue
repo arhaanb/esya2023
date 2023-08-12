@@ -81,7 +81,7 @@ main {
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 1.5em;
-	font-family: 'Martel Sans', sans-serif;
+	font-family: 'manrope', sans-serif;
 	h4 {
 		font-size: 1.35em;
 		margin: 0;
