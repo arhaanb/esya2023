@@ -1,58 +1,66 @@
 <template>
 	<main>
-		<!-- <div class="navcont">
-			<div class="row">
-				<div class="five columns contact">
-					<h1 class="fancy">Join our community</h1>
-					<input type="text" name="" placeholder="Email" id="" />
-					<p>
-						*By checking the above box you are agreeing to receive email
-						communications from ESYA Inc. This can be changed at any time.
-						Please refer to our Privacy Policy and Terms of Use for more details
-						or Contact Us
-					</p>
+		<br /><br />
+		<div class="navcont">
+			<div class="navcontFooter">
+				<div class="colOne">
+					<div class="flexcol">
+						<div class="iiitdLogoFooter">
+							<img
+								src="/footer/iiitdLogoFooter.png"
+								class="iiitdLogoFooterImg"
+								alt="not loaded"
+							/>
+						</div>
+						<!-- <h3 style="display: inline">|</h3> -->
+						<h4>Indraprastha Institute of Information Technology, Delhi</h4>
+					</div>
+					<h5>
+						Okhla Industrial Area Phase 3, Near Govindpuri Metro Station
+						<br />New Delhi, Delhi, 110020
+					</h5>
 				</div>
-				<div class="six columns">
-					<div class="row">
-						<div class="four columns">
-							<h6 class="bold zero">Company</h6>
-							<h6 class="zero">About us</h6>
-							<h6 class="zero">Shop</h6>
-							<h6 class="zero">Blogs</h6>
+				<div class="colTwo">
+					<div class="contactDetail">
+						<img
+							src="/footer/fill_phone.png"
+							class="mobileFilled"
+							alt="not loaded"
+						/>
+						<div>
+							<h6 class="bold zero">Phone</h6>
+							<p class="zero">+91-011-71985300</p>
+							<p class="zero">+91-011-26907400-7404</p>
 						</div>
-						<div class="four columns">
-							<h6 class="bold zero">Products</h6>
-							<h6 class="zero">Product Name</h6>
-							<h6 class="zero">Product Name</h6>
-							<h6 class="zero">Product Name</h6>
-							<h6 class="zero">Product Name</h6>
-							<h6 class="zero">Product Name</h6>
+					</div>
+
+					<div class="contactDetail">
+						<img
+							src="/footer/mailIcon.png"
+							class="mailFilled"
+							alt="not loaded"
+						/>
+						<div>
+							<h6 class="bold zero">Mail</h6>
+							<p class="zero">info@iiitd.ac.in</p>
 						</div>
-						<div class="four columns">
-							<h6 class="bold zero">Customer Care</h6>
-							<h6 class="zero">FAQ</h6>
-							<h6 class="zero">Return Policy</h6>
-							<h6 class="zero">Promotional Terms & Conditions</h6>
+					</div>
+
+					<div class="contactDetail">
+						<img
+							src="/footer/phoneIcon.png"
+							class="mobileFilled"
+							alt="not loaded"
+						/>
+						<div>
+							<h6 class="zero bold">Fax</h6>
+							<p class="zero">+91-11-26907405</p>
 						</div>
 					</div>
 				</div>
-				<div class="one columns">
-					<h6 class="bold">Socials</h6>
-				</div>
 			</div>
-
-			<div class="bottom fancy">
-				<h4>© ESYA</h4>
-				<div class="flexer">
-					<h4>Terms & Conditions</h4>
-					<img class="bop" src="/img/bop.svg" alt="" />
-					<h4>Privacy Policy</h4>
-				</div>
-			</div>
-
 			<br /><br />
-		</div> -->
-		<img src="/footer.svg" alt="">
+		</div>
 	</main>
 </template>
 
@@ -61,24 +69,57 @@ main {
 	background-color: #000;
 	color: #fff;
 }
-.bottom {
+h5 {
+	font-size: 1em;
+}
+
+.flexcol {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 1.5em;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
 	h4 {
-		font-size: 1.35em;
+		font-size: 1.4em;
 		margin: 0;
 	}
-	.flexer {
-		display: flex;
-		justify-content: flex-end;
-		align-items: center;
-		gap: 1em;
-		.bop {
-			width: 0.3em;
-		}
-	}
+}
+
+div.contactDetail {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-bottom: 1.5em;
+}
+
+.navcontFooter {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.colOne {
+	display: inline-block;
+}
+.colTwo {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+	gap: 2.5em;
+}
+
+.mobileFilled {
+	display: inline-block;
+	width: 1.625rem;
+	height: 2.685rem;
+	transform: translateY(0.5rem);
+	margin-right: 1rem;
+}
+.mailFilled {
+	display: inline-block;
+	width: 1.625rem;
+	height: 1.685rem;
+	transform: translateY(0.5rem);
+	margin-right: 1rem;
 }
 
 @media (max-width: 750px) {
@@ -92,9 +133,23 @@ main {
 			margin-bottom: 0.5em;
 		}
 	}
-	h6.bold {
-		margin-top: 1em;
+	.navcontFooter {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
 	}
+	.colTwo {
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-end;
+		flex-direction: column;
+		gap: 0em;
+		margin-top: 1em;
+		margin-bottom: -1em;
+	}
+}
+.iiitdLogoFooter {
+	width: 5.75rem;
 }
 
 .line {
