@@ -4,7 +4,7 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    About: typeof import('C:/projects/esya-final/src/components/about.vue')['default']
+    About: typeof import('./src/components/about.vue')['default']
     BxBxlBehance: typeof import('~icons/bx/bxl-behance')['default']
     BxBxlSpotify: typeof import('~icons/bx/bxl-spotify')['default']
     BxBxlTwitter: typeof import('~icons/bx/bxl-twitter')['default']
@@ -12,9 +12,11 @@ declare module 'vue' {
     CarbonLogoGithub: typeof import('~icons/carbon/logo-github')['default']
     CarbonLogoInstagram: typeof import('~icons/carbon/logo-instagram')['default']
     CarbonLogoLinkedin: typeof import('~icons/carbon/logo-linkedin')['default']
-    Footer: typeof import('C:/projects/esya-final/src/components/footer.vue')['default']
-    Single: typeof import('C:/projects/esya-final/src/components/single.vue')['default']
-    Speakers: typeof import('C:/projects/esya-final/src/components/speakers.vue')['default']
+    Event: typeof import('./src/components/event.vue')['default']
+    Events: typeof import('./src/components/events.vue')['default']
+    Footer: typeof import('./src/components/footer.vue')['default']
+    Single: typeof import('./src/components/single.vue')['default']
+    Speakers: typeof import('./src/components/speakers.vue')['default']
   }
 }
 
