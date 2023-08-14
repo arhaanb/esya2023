@@ -21,6 +21,46 @@
 					image="https://arhaanb.com/new_me.jpeg"
 				/>
 			</div>
+
+			<div class="speaker">
+				<Single
+					name="Arhaan Bahadur"
+					designation="Designer"
+					time="9:00 PM"
+					location="C-102, LHC"
+					image="https://arhaanb.com/yo.jpg"
+				/>
+			</div>
+
+			<div class="speaker">
+				<Single
+					name="Name 1"
+					designation="Designer"
+					time="10:00 PM"
+					location="C-102, LHC"
+					image="https://arhaanb.com/new_me.jpeg"
+				/>
+			</div>
+
+			<div class="speaker">
+				<Single
+					name="Arhaan Bahadur"
+					designation="Designer"
+					time="9:00 PM"
+					location="C-102, LHC"
+					image="https://arhaanb.com/yo.jpg"
+				/>
+			</div>
+
+			<div class="speaker">
+				<Single
+					name="Name 1"
+					designation="Designer"
+					time="10:00 PM"
+					location="C-102, LHC"
+					image="https://arhaanb.com/new_me.jpeg"
+				/>
+			</div>
 		</div>
 	</main>
 </template>

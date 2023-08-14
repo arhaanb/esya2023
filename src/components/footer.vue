@@ -1,7 +1,6 @@
 <template>
 	<main>
-		<br /><br />
-		<div class="navcont">
+		<!-- <div class="navcont">
 			<div class="row">
 				<div class="five columns contact">
 					<h1 class="fancy">Join our community</h1>
@@ -52,7 +51,8 @@
 			</div>
 
 			<br /><br />
-		</div>
+		</div> -->
+		<img src="/footer.svg" alt="">
 	</main>
 </template>
 

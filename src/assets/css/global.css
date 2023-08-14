@@ -10,13 +10,13 @@
 }
 
 @font-face {
-	font-family: 'Akira';
+	font-family: 'Akira Expanded';
 	src: url('/akira.otf');
 	font-display: swap;
 }
 
 .akira {
-	font-family: 'akira';
+	font-family: 'Akira Expanded';
 }
 
 body {

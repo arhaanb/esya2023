@@ -12,8 +12,11 @@
 
 		<div class="navcont">
 			<Speakers />
-			<About />
 		</div>
+		<br /><br />
+		<img class="soonalt" src="/soon-alt.svg" alt="" />
+		<br /><br />
+		<About />
 		<br /><br />
 		<br /><br />
 	</main>
@@ -22,5 +25,9 @@
 <style lang="scss" scoped>
 .test {
 	margin-top: 2em;
+}
+
+.soonalt {
+	margin: -3em 0;
 }
 </style>
