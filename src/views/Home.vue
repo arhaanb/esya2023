@@ -16,6 +16,10 @@
 		<br /><br />
 		<img class="soonalt" src="/soon-alt.svg" alt="" />
 		<br /><br />
+		<Sponsors />
+		<img src="/soon.svg" alt="" />
+		<br /><br />
+		<br /><br />
 		<About />
 		<br /><br />
 		<br /><br />

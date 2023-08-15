@@ -15,6 +15,7 @@ declare module 'vue' {
     Footer: typeof import('C:/projects/esya-final/src/components/footer.vue')['default']
     Single: typeof import('C:/projects/esya-final/src/components/single.vue')['default']
     Speakers: typeof import('C:/projects/esya-final/src/components/speakers.vue')['default']
+    Sponsors: typeof import('C:/projects/esya-final/src/components/sponsors.vue')['default']
   }
 }
 
