@@ -16,6 +16,7 @@ declare module 'vue' {
     Events: typeof import('./src/components/events.vue')['default']
     Footer: typeof import('./src/components/footer.vue')['default']
     Single: typeof import('./src/components/single.vue')['default']
+    SingleEvent: typeof import('./src/components/singleEvent.vue')['default']
     Speakers: typeof import('./src/components/speakers.vue')['default']
   }
 }
