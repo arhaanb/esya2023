@@ -1,5 +1,5 @@
 <template>
-	<main>
+	<main class="wrapper">
 		<nav v-if="$route.meta.title !== 'notfound'" class="noselect navbar">
 			<div class="navcont">
 				<!-- <router-link to="/">Collections</router-link>
@@ -30,7 +30,7 @@
 
 		<transition class="noselect nav" name="nav">
 			<div v-if="nav" class="fullnav">
-				<img src="/logos.png" class="govtlogos" alt="">
+				<img src="/logos.png" class="govtlogos" alt="" />
 				<div class="navcont">
 					<br />
 					<div class="topsec">
@@ -88,6 +88,9 @@ export default {
 </script>
 
 <style lang="scss">
+.wrapper {
+	overflow-x: hidden;
+}
 @import 'vue3-notion/dist/style.css'; /* optional Notion-like styles */
 .links.right {
 	img {
@@ -178,6 +181,7 @@ export default {
 	width: 100%;
 	height: 100vh;
 	color: #fff;
+	background-color: #000;
 	position: fixed;
 	top: 0;
 	z-index: 20;
@@ -188,13 +192,13 @@ export default {
 	.govtlogos {
 		width: 30%;
 		position: absolute;
-		bottom: 3em;
-		right: 5em;
+		top: 2.5em;
+		right: 10em;
 	}
 	.navdata {
 		a {
 			text-transform: uppercase;
-			font-family: 'akira';
+			font-family: 'Akira Expanded';
 			font-size: 3.35em;
 			margin: 0;
 			border-bottom: solid #fff 1px;
