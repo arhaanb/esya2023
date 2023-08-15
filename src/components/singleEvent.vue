@@ -11,6 +11,10 @@
 							<p class="description">{{ description || null }}</p>
 						</div>
 						<div>
+							<h5>Registration fees: {{ regFees || null }}</h5>
+							<h5>Prize pool: {{ prizePool || null }}</h5>
+							<h5>Tags: {{tags}}</h5>
+
 							<a class="bold zero top" :href=link>Unstop link</a>
 						</div>
 					</div>
@@ -22,7 +26,7 @@
 
 <script>
 export default {
-	props: ['name', 'image', 'description', 'link']
+	props: ['name', 'image', 'description', 'link', 'regFees', 'prizePool', 'tags']
 }
 </script>
 
@@ -55,22 +59,20 @@ export default {
 		}
 		a {
 			text-decoration: underline;
-			margin-left: 01.5em;
 			font-size: 1.1em;
-			&.btm {
-				margin-top: -0.2em;
-			}
 		}
+		h5 {
+			font-size: 1.1em;
+			margin-bottom: 0;
+		}	
 	}
 	.right {
 		display:flex;
 		height: 100%;
 		flex: 1;
+		margin-left: 01.5em;
 		flex-direction: column;
 
-		.description {
-			margin-left: 1.5em;
-		}
 	}
 
 
