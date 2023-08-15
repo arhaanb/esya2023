@@ -14,7 +14,7 @@
 
 			<div class="speaker">
 				<SingleEvent
-					name="Event Name"
+					name="Event Name edit"
 					time="10:00 PM"
 					location="C-102, LHC"
 					image="https://arhaanb.com/new_me.jpeg"
