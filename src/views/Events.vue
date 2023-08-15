@@ -1,6 +1,7 @@
 <template>
 	<main>
 		<div class="navcont">
+			<br />
 			<img src="/events.svg" />
 			<br /><br />
 			<!-- <h1 class="center titled akira">EVENTS</h1> -->
