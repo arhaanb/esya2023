@@ -12,8 +12,10 @@ declare module 'vue' {
     CarbonLogoGithub: typeof import('~icons/carbon/logo-github')['default']
     CarbonLogoInstagram: typeof import('~icons/carbon/logo-instagram')['default']
     CarbonLogoLinkedin: typeof import('~icons/carbon/logo-linkedin')['default']
+    Event: typeof import('C:/projects/esya-final/src/components/Event.vue')['default']
     Footer: typeof import('C:/projects/esya-final/src/components/footer.vue')['default']
     Single: typeof import('C:/projects/esya-final/src/components/single.vue')['default']
+    SingleEvent: typeof import('C:/projects/esya-final/src/components/SingleEvent.vue')['default']
     Speakers: typeof import('C:/projects/esya-final/src/components/speakers.vue')['default']
     Sponsors: typeof import('C:/projects/esya-final/src/components/sponsors.vue')['default']
   }
