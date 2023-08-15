@@ -50,7 +50,7 @@
 						<router-link to="/" @click="nav = !nav">Home</router-link>
 						<router-link to="/events" @click="nav = !nav">Events</router-link>
 						<router-link to="/404" @click="nav = !nav">Schedule</router-link>
-						<router-link to="/404" @click="nav = !nav">Gallery</router-link>
+						<router-link to="/team" @click="nav = !nav">Team</router-link>
 						<router-link to="/404" @click="nav = !nav">About</router-link>
 					</div>
 				</div>
