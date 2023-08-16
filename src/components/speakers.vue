@@ -13,19 +13,17 @@
 
 		<div class="flexgrid">
 			<Single
-				name="Arhaan Bahadur"
-				designation="Designer"
-				time="9:00 PM"
-				location="C-102, LHC"
-				image="https://arhaanb.com/yo.jpg"
+				name="Mukul Kantiwal"
+				designation="Cybersecurity Talks"
+				image="https://media.licdn.com/dms/image/C5603AQHB1FPrHCAG1A/profile-displayphoto-shrink_800_800/0/1592075603938?e=1697673600&v=beta&t=CD9TkAu554bzqrzELMocjAYaW_u17ucmHR8-B9zKZ0A"
+				link="https://www.linkedin.com/in/mukul-kantiwal/"
 			/>
 
 			<Single
-				name="Name 1"
-				designation="Designer"
-				time="10:00 PM"
-				location="C-102, LHC"
-				image="https://arhaanb.com/new_me.jpeg"
+				name="Sanchay Singh"
+				designation="Cybersecurity Talks"
+				image="https://media.licdn.com/dms/image/C5603AQHVm6ZQesnu4A/profile-displayphoto-shrink_800_800/0/1650058406121?e=1697673600&v=beta&t=y1EkgrdbG5bZjOzbqL4RAqbvGrGP0stJ1m4odBCOAso"
+				link="https://www.linkedin.com/in/sanchayofficial/"
 			/>
 		</div>
 	</main>
