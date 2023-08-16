@@ -2,14 +2,14 @@
 	<main>
 		<h1 class="center akira titled">SPEAKERS</h1>
 
-		<div class="speaker">
+		<div style="margin-bottom: 2em" class="speaker">
 			<SingleCustom
 				name="Aman Dhattarwal"
 				image="https://media.licdn.com/dms/image/C4E03AQFAoY-MSYJsCA/profile-displayphoto-shrink_800_800/0/1600154260690?e=2147483647&v=beta&t=l_BTSPSMWjK-RDRRX0-YsghTD3ij8PFmqxAy6ImL5XM"
 			/>
 		</div>
 
-		<br /><br /><br />
+		
 
 		<div class="flexgrid">
 			<Single
@@ -66,6 +66,13 @@ main {
 	.titled {
 		font-size: 200%;
 		margin-bottom: 1.5em;
+	}
+	.flexgrid {
+		flex-direction: column;
+		gap: 2em;
+	}
+	main {
+		margin: 0;
 	}
 }
 </style>

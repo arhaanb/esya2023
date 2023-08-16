@@ -2,6 +2,11 @@
 	<main>
 		<a href="https://www.instagram.com/amandhattarwal/?hl=en" target="_blank">
 			<div class="bg">
+				<div class="resp">
+					<h5 class="akira zero main">main speaker</h5>
+					<h1 class="bold zero akira name">{{ name || null }}</h1>
+					<!-- <h3 class="zero akira designation"></h3> -->
+				</div>
 				<!-- <img src="/speakers/bruh.svg" alt="" /> -->
 				<div class="flex">
 					<img :src="image || 'https://arhaanb.com/new_me.jpeg'" alt="" />
@@ -12,10 +17,9 @@
 							flex-direction: column;
 						"
 					>
-						<div>
+						<div class="antiresp">
 							<h5 class="akira zero main">main speaker</h5>
 							<h1 class="bold zero akira name">{{ name || null }}</h1>
-							<!-- <h3 class="zero akira designation"></h3> -->
 						</div>
 						<div class="info">
 							<h5 class="bold zero top">{{ time || null }}</h5>
@@ -44,6 +48,9 @@ export default {
 	border: 1px solid rgba(255, 255, 255, 0.18);
 	padding: 2em;
 	font-family: 'Akira Expanded' !important;
+}
+.resp {
+	display: none;
 }
 .main {
 	font-size: 1.1em;
@@ -84,19 +91,24 @@ h3 {
 // }
 @media (max-width: 750px) {
 	h1 {
-		font-size: 2em;
+		font-size: 1.75em;
 	}
-	h3 {
-		font-size: 1.25em;
+	.bg {
+		padding: 1em;
 	}
-	.image {
+	h5.main {
+		font-size: 1.1em;
+	}
+	.antiresp {
+		display: none;
+	}
+	.resp {
+		display: block;
+		margin-bottom: 1em;
+	}
+	.flex {
 		img {
-			width: 60%;
-			margin-top: 2em;
-		}
-		h5 {
-			margin-left: 0.75em;
-			font-size: 1.1em;
+			width: 100%;
 		}
 	}
 }
