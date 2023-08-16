@@ -15,6 +15,8 @@ declare module 'vue' {
     Event: typeof import('C:/projects/esya-final/src/components/Event.vue')['default']
     Footer: typeof import('C:/projects/esya-final/src/components/footer.vue')['default']
     Single: typeof import('C:/projects/esya-final/src/components/single.vue')['default']
+    'Single copy': typeof import('C:/projects/esya-final/src/components/single copy.vue')['default']
+    SingleCustom: typeof import('C:/projects/esya-final/src/components/SingleCustom.vue')['default']
     SingleEvent: typeof import('C:/projects/esya-final/src/components/SingleEvent.vue')['default']
     Speakers: typeof import('C:/projects/esya-final/src/components/speakers.vue')['default']
     Sponsors: typeof import('C:/projects/esya-final/src/components/sponsors.vue')['default']
