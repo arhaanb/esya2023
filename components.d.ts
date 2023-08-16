@@ -14,6 +14,7 @@ declare module 'vue' {
     CarbonLogoLinkedin: typeof import('~icons/carbon/logo-linkedin')['default']
     Event: typeof import('C:/projects/esya-final/src/components/Event.vue')['default']
     Footer: typeof import('C:/projects/esya-final/src/components/footer.vue')['default']
+    NewEvent: typeof import('C:/projects/esya-final/src/components/NewEvent.vue')['default']
     Single: typeof import('C:/projects/esya-final/src/components/single.vue')['default']
     'Single copy': typeof import('C:/projects/esya-final/src/components/single copy.vue')['default']
     SingleCustom: typeof import('C:/projects/esya-final/src/components/SingleCustom.vue')['default']

@@ -52,7 +52,9 @@
 						<router-link class="hash" to="/#speakers" @click="nav = !nav"
 							>Speakers</router-link
 						>
-						<router-link class="hash" to="/#about" @click="nav = !nav">About</router-link>
+						<router-link class="hash" to="/#about" @click="nav = !nav"
+							>About</router-link
+						>
 						<router-link to="/team" @click="nav = !nav">Team</router-link>
 						<!-- <router-link to="/404" @click="nav = !nav">About</router-link> -->
 					</div>
@@ -290,6 +292,10 @@ export default {
 				font-size: 2.25em;
 				padding-left: 1em;
 			}
+		}
+		.govtlogos {
+			bottom: 0;
+			right: 3em;
 		}
 	}
 
