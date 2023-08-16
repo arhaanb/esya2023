@@ -1,7 +1,7 @@
 <template>
 	<main>
 		<div class="grid">
-			<div class="speaker">
+			<!-- <div class="speaker">
 				<SingleEvent
 					name="h4ckc0n CTF"
 					time="9:00 PM"
@@ -10,9 +10,9 @@
 					description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 					link="https://unstop.com/test"
 				/>
-			</div>
+			</div> -->
 
-			<div class="speaker">
+			<!-- <div class="speaker">
 				<SingleEvent
 					name="Event Name edit"
 					time="10:00 PM"
@@ -40,7 +40,7 @@
 					image="https://arhaanb.com/new_me.jpeg"
 					description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 				/>
-			</div>
+			</div> -->
 		</div>
 		<br /><br />
 		<br /><br />

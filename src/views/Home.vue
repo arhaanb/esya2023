@@ -10,7 +10,7 @@
 		<br />
 		<img src="/soon.svg" alt="" />
 
-		<div class="navcont">
+		<div id="speakers" class="navcont">
 			<Speakers />
 		</div>
 		<br /><br />
@@ -20,7 +20,9 @@
 		<img src="/soon.svg" alt="" />
 		<br /><br />
 		<br /><br />
-		<About />
+		<section id="about">
+			<About />
+		</section>
 		<br /><br />
 		<br /><br />
 	</main>

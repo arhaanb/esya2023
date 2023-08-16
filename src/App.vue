@@ -49,9 +49,12 @@
 					<div class="flexer">
 						<router-link to="/" @click="nav = !nav">Home</router-link>
 						<router-link to="/events" @click="nav = !nav">Events</router-link>
-						<router-link to="/404" @click="nav = !nav">Schedule</router-link>
+						<router-link class="hash" to="/#speakers" @click="nav = !nav"
+							>Speakers</router-link
+						>
+						<router-link class="hash" to="/#about" @click="nav = !nav">About</router-link>
 						<router-link to="/team" @click="nav = !nav">Team</router-link>
-						<router-link to="/404" @click="nav = !nav">About</router-link>
+						<!-- <router-link to="/404" @click="nav = !nav">About</router-link> -->
 					</div>
 				</div>
 			</div>
@@ -238,7 +241,7 @@ export default {
 		}
 		opacity: 0.7;
 	}
-	a.router-link-exact-active {
+	a.router-link-exact-active:not(.hash) {
 		opacity: 1;
 	}
 }
