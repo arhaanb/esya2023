@@ -11,10 +11,11 @@
 			<img
 				:src="
 					data?.image
-						? `events${data?.image}`
-						: 'https://arhaanb.com/new_me.jpeg'
+						? data.image
+						: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg'
 				"
 				alt=""
+				style="border-radius: 0.5em"
 			/>
 			<div
 				style="
@@ -25,17 +26,28 @@
 			>
 				<div class="info">
 					<!-- <h5 class="akira zero main">main speaker</h5> -->
-					<h6 class="zero">Cash Prize</h6>
-					<h3 class="zero akira prizenum">
-						₹{{
-							data?.prize ? parseInt(data?.prize).toLocaleString('en-IN') : 0
+					<h6 class="zero">Prizes</h6>
+					<h3
+						:class="
+							data?.prize
+								? Number.isInteger(data?.prize)
+									? 'zero akira prizenum'
+									: 'zero akira prizenum small'
+								: 'zero akira prizenum'
+						"
+					>
+						{{
+							data?.prize
+								? Number.isInteger(data?.prize)
+									? `₹${parseInt(data?.prize).toLocaleString('en-IN')}`
+									: data?.prize
+								: '₹0'
 						}}
 					</h3>
 				</div>
 				<div>
 					<h5 class="zero subtitle">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-						explicabo nostrum eum maxime?
+						{{ data?.desc }}
 					</h5>
 				</div>
 			</div>
@@ -44,7 +56,7 @@
 		<div class="regcont">
 			<div class="venue">
 				<h6 class="zero">
-					<span class="bold">24th August</span>, &nbsp;C-102, LHC
+					<span class="bold">{{ data?.date || null }}</span>
 				</h6>
 				<h6 class="zero">{{ data?.venue }}</h6>
 			</div>
@@ -129,7 +141,7 @@ h3 {
 	// align-items: flex-end;
 	img {
 		width: 50%;
-		aspect-ratio: 800.55/374.69;
+		aspect-ratio: 1;
 		object-fit: cover;
 	}
 }
@@ -142,6 +154,11 @@ h3 {
 			margin-top: -0.2em;
 		}
 	}
+}
+
+.prizenum.small {
+	font-family: 'manrope';
+	font-weight: 800;
 }
 // * {
 // 	font-family: 'Manrope';
