@@ -29,8 +29,8 @@
 						/>
 						<div>
 							<h6 class="bold zero">Phone</h6>
-							<p class="zero">+91-011-71985300</p>
-							<p class="zero">+91-011-26907400-7404</p>
+							<p class="zero">+91-8076572633</p>
+							<p class="zero">+91-88001 10450</p>
 						</div>
 					</div>
 
@@ -42,22 +42,13 @@
 						/>
 						<div>
 							<h6 class="bold zero">Mail</h6>
-							<p class="zero">info@iiitd.ac.in</p>
-						</div>
-					</div>
-
-					<div class="contactDetail">
-						<img
-							src="/footer/phoneIcon.png"
-							class="mobileFilled"
-							alt="not loaded"
-						/>
-						<div>
-							<h6 class="zero bold">Fax</h6>
-							<p class="zero">+91-11-26907405</p>
+							<p class="zero">esya@iiitd.ac.in</p>
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="line">
+				Made with ❤ by <u><a href="ieee.iiitd.edu.in">IEEE-IIIT Delhi</a></u> Team for Esya'23.
 			</div>
 			<br /><br />
 		</div>
