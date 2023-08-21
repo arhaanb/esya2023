@@ -28,7 +28,7 @@ export default {
         "image": "https://media.licdn.com/dms/image/D4D22AQG4ag-gCx908g/feedshare-shrink_2048_1536/0/1691910824896?e=1695254400&v=beta&t=nNAsoqz7G3NTEADsSnTYFQD5caYDB1SE-bzWX-8rk-g",
         "prize": "2 Bonus Points for IIITD Admissions",
         "desc": "Unleash Your Coding Genius! Join Procon Jr, Esya's premier competitive programming showdown for school students. Gear up to conquer IOI-style challenges and compete against the nation's brightest minds. Plus, stand a chance to earn a head start with two bonus points for admission at Indraprastha Institute of Information Technology, Delhi through JAC process!\n\nParticipate in the event during Esya'23 on 25th and 26th of August at IIITD.",
-        "link": "https:
+        "link": "",
         "venue": "Online + Offline"
     },
     {
