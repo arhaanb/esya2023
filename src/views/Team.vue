@@ -41,7 +41,7 @@ export default {
 				['Akshat Saini', 'PR', '/teams/AkshatSaini.jpg'],
 				['Mehul Arora', 'Events', '/teams/MehulArora.JPG'],
 				['Sohum Sikdar', 'Events', '/teams/Sohum.jpeg'],
-				['Kushagra Gupta', 'Events', '/teams/Kushagra.jpeg'],
+				['Kushagra Mittal', 'Events', '/teams/Kushagra.jpeg'],
 				['Agamdeep Singh', 'Events', '/teams/AgamdeepSingh.jpeg'],
 				['Ayush Prusty', 'Events', '/teams/AyushPrusty.jpg'],
 				['Rudraksh Arora', 'Events', '/teams/Rudraksh.png'],
