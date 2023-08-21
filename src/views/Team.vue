@@ -9,6 +9,7 @@
 			<div class="grid">
 				<div v-for="i in team" :key="i" class="membercont">
 					<div class="member">
+						<img :src="i[2]" alt="link not opening">
 						<h4>{{ i[0] }}</h4>
 						<h5>{{ i[1] }}</h5>
 					</div>
@@ -25,26 +26,31 @@ export default {
 	data() {
 		return {
 			team: [
-				['Aditya Nangia', 'Convener', 'arhaan.jpg'],
-				['Abhik S Basu', 'Convener', 'arhaan.jpg'],
-				['Devansh Tripathi', 'Design', 'arhaan.jpg'],
-				['Ipsita', 'Design', 'arhaan.jpg'],
-				['Aabhas Chaddha', 'Ambience', 'arhaan.jpg'],
-				['Aanchal Gupta', 'Ambience', 'arhaan.jpg'],
-				['Hemang Dahiya', 'Operations', 'arhaan.jpg'],
-				['Jayan Pahuja', 'Operations', 'arhaan.jpg'],
-				['Divyam Gupta', 'Treasurer', 'arhaan.jpg'],
-				['Nishaant Rastogi', 'Sponsorships', 'arhaan.jpg'],
-				['Arsh Gupta', 'Sponsorships', 'arhaan.jpg'],
-				['Akshansh Jaiswal', 'PR', 'arhaan.jpg'],
-				['Akshat Saini', 'PR', 'arhaan.jpg'],
-				['Mehul Arora', 'Events', 'arhaan.jpg'],
-				['Sohum Sikdar', 'Events', 'arhaan.jpg'],
-				['Kushagra Gupta', 'Events', 'arhaan.jpg'],
-				['Agamdeep Singh', 'Events', 'arhaan.jpg'],
-				['Ayush Prusty', 'Events', 'arhaan.jpg'],
-				['Rudraksha Arora', 'Events', 'arhaan.jpg'],
-				['Arhaan Bahadur', 'Webmaster', 'arhaan.jpg']
+				['Aditya Nangia', 'Convener', '/teams/AdityaNangia.jpg'],
+				['Abhik S Basu', 'Convener', '/teams/AbhikSBasu.jpeg'],
+				['Devansh Tripathi', 'Design', '/teams/DevanshTripathi.jpg'],
+				['Ipsita', 'Design', '/teams/IpsitaR.jpeg'],
+				['Aabhas Chaddha', 'Ambience', '/teams/AabhasChaddha.jpg'],
+				['Aanchal Gupta', 'Ambience', '/teams/AanchalGupta.jpg'],
+				['Hemang Dahiya', 'Operations', '/teams/HemangDahiya.jpg'],
+				['Jayan Pahuja', 'Operations', '/teams/JayanPahuja.jpeg'],
+				['Divyam Gupta', 'Treasurer', '/teams/DivyamGupta.jpeg'],
+				['Nishaant Rastogi', 'Sponsorships', '/teams/NishaantRastogi.jpg'],
+				['Arsh Gupta', 'Sponsorships', '/teams/ArshGupta.jpg'],
+				['Akshansh Jaiswal', 'PR', '/teams/AkshanshJaiswal.jpeg'],
+				['Akshat Saini', 'PR', '/teams/AkshatSaini.jpg'],
+				['Mehul Arora', 'Events', '/teams/MehulArora.jpg'],
+				['Sohum Sikdar', 'Events', '/teams/MehulArora.jpg'],
+				['Kushagra Gupta', 'Events', '/teams/Kushagra.jpeg'],
+				['Agamdeep Singh', 'Events', '/teams/AgamdeepSingh.jpeg'],
+				['Ayush Prusty', 'Events', '/teams/AyushPrusty.jpg'],
+				['Rudraksha Arora', 'Events', '/teams/AyushPrusty.jpg'],
+				['Arhaan Bahadur', 'Webmaster', '/teams/ArhaanBahadur.jpeg'],
+				['Abhishek','web-developer','/teams/Abhishek.jpg'],
+				['Dhruv Jain', 'Web-developer', '/teams/DhruvJain.jpg'],
+				['Aditya Dahiya', 'web-developer', '/teams/AdityaDahiya.jpg'],
+				
+				
 			]
 		}
 	}
@@ -72,6 +78,8 @@ export default {
 	img {
 		width: 100%;
 		border-radius: 1em;
+		height: 28rem;
+		object-fit: cover;
 	}
 
 	h4 {
