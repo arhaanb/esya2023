@@ -35,6 +35,7 @@ export default {
         "category": "CSE",
         "event": "ProSort Euler",
 		"image": "https://i.imgur.com/zk6Wgu0.jpeg",
+		"prize": 25000
 		"desc": "Join us at IIITD for an exhilarating event - a Thrilling Math + Coding competition inspired by Project Euler. Challenge your problem-solving abilities by solving intricate mathematical problems using programming skills, all while racing against the clock. Stand a chance to win attractive prizes and seize the opportunity to establish valuable connections with like-minded individuals. Don't miss out on this chance to showcase your skills, expand your horizons, and make lasting connections.",
         "link": "https://unstop.com/hackathons/procon-euler-esya23-indraprastha-institute-of-information-technology-iiit-delhi-728754",
         "venue": "Online"
