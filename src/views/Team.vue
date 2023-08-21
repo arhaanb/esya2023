@@ -78,6 +78,7 @@ export default {
 	img {
 		width: 100%;
 		border-radius: 1em;
+		height: 28rem;
 	}
 
 	h4 {
