@@ -79,6 +79,7 @@ export default {
 		width: 100%;
 		border-radius: 1em;
 		height: 28rem;
+		object-fit: cover;
 	}
 
 	h4 {
