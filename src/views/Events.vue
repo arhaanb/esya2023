@@ -34,8 +34,10 @@ export default {
     {
         "category": "CSE",
         "event": "ProSort Euler",
+		"image": "https://instagram.fdel29-1.fna.fbcdn.net/v/t51.2885-15/367417078_984251589478509_8342031224440480379_n.heic?stp=dst-jpg_e35&_nc_ht=instagram.fdel29-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=525T_PLOCkQAX-o-Lig&edm=ACWDqb8BAAAA&ccb=7-5&ig_cache_key=MzE2OTM0MDI0ODUyNDQ2NjM5MA%3D%3D.2-ccb7-5&oh=00_AfBS3L6hJEZoFwk8cvQA6H03RpInu8e0nHxWdOXeOE5TEw&oe=64E749F0&_nc_sid=ee9879",
+		"desc": "Join us at IIITD for an exhilarating event - a Thrilling Math + Coding competition inspired by Project Euler. Challenge your problem-solving abilities by solving intricate mathematical problems using programming skills, all while racing against the clock. Stand a chance to win attractive prizes and seize the opportunity to establish valuable connections with like-minded individuals. Don't miss out on this chance to showcase your skills, expand your horizons, and make lasting connections.",
         "link": "https://unstop.com/hackathons/procon-euler-esya23-indraprastha-institute-of-information-technology-iiit-delhi-728754",
-        "venue": "Online + Offline"
+        "venue": "Online"
     },
     {
         "category": "CSE",
