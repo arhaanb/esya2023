@@ -6,7 +6,10 @@
 				<img src="/hero.svg" alt="" />
 			</div>
 			<div class="center">
-				<button class="zero reg" onclick="window.location='events'">Register For Events &rarr;</button>
+				<div class="row">
+					<button class="zero reg" onclick="window.location='events'">Register For Events &rarr;</button>
+					<button class="zero reg" onclick="window.location='https://forms.gle/9QWWGygjJb5k2eYQ9'">Get your Fest Passes &rarr;</button>
+				</div>
 			</div>
 		</section>
 
@@ -34,6 +37,10 @@
 <style lang="scss" scoped>
 .test {
 	margin-top: 2em;
+}
+
+.row {
+	display: flex;
 }
 
 .zero {
