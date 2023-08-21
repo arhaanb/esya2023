@@ -44,7 +44,12 @@ export default {
 				['Agamdeep Singh', 'Events', 'arhaan.jpg'],
 				['Ayush Prusty', 'Events', 'arhaan.jpg'],
 				['Rudraksha Arora', 'Events', 'arhaan.jpg'],
-				['Arhaan Bahadur', 'Webmaster', 'arhaan.jpg']
+				['Arhaan Bahadur', 'Webmaster', 'arhaan.jpg'],
+				['Abhishek','web-developer','arhaan.jpg'],
+				['Dhruv Jain', 'Web-developer', 'arhaan.jpg'],
+				['Aditya Dahiya', 'web-developer', 'arhaan.jpg'],
+				
+				
 			]
 		}
 	}
