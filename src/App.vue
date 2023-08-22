@@ -52,10 +52,13 @@
 						<router-link class="hash" to="/#speakers" @click="nav = !nav"
 							>Speakers</router-link
 						>
-						<router-link class="hash" to="/#about" @click="nav = !nav"
+						<!-- <router-link class="hash" to="/#about" @click="nav = !nav"
 							>About</router-link
-						>
+						> -->
 						<router-link to="/team" @click="nav = !nav">Team</router-link>
+						<router-link to="/schedule" @click="nav = !nav"
+							>Schedule</router-link
+						>
 						<!-- <router-link to="/404" @click="nav = !nav">About</router-link> -->
 					</div>
 				</div>
