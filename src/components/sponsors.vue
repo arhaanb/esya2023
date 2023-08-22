@@ -25,18 +25,19 @@ export default {
 	data() {
 		return {
 			imgs: [
+				'igl.png',
+				'nixi.png',
 				'arista.png',
 				'bhartiya_urban.jpg',
 				'boompanda.jpg',
 				'candes.png',
+				'crac.png',
 				'delhicardio.png',
 				'enord.jpeg',
 				'eraayastays.png',
-				'igl.png',
 				'ihub.png',
 				'kyariyaan.png',
 				'lid.png',
-				'nixi.png',
 				'pnb.png',
 				'royalenfiled.png',
 				'shuraa.png',
