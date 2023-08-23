@@ -271,8 +271,8 @@ export default {
                     "image": "https://media.licdn.com/dms/image/D5622AQFQizJp3INmRg/feedshare-shrink_2048_1536/0/1692527244903?e=1695254400&v=beta&t=Hv2_jfcBv7rKNbsX1LSD5BujgfjJQJliy-ud85VIG1w",
                     "prize": 15000,
                     "desc": "Discover the Future of AI: Welcome to ML WARS 2023! Where Learning Meets Prediction! Step into ML WARS: where students Master the art of predicting the unknown with ML WARS. Decode data patterns, foresee outcomes, and forge unbreakable bonds. Employ your prediction prowess and carve a legacy in the AI realm. Don't miss out – embrace the challenge, seize victory!\n\nParticipate in the event during Esya'23 on 25th and 26th of August at IIITD.\nTo register follow the link in bio.",
-                    "link": "https://unstop.com/competitions/prompt-wars-esya23-indraprastha-institute-of-information-technology-iiit-delhi-728755",
-                    "venue": "Offline"
+                    "link": "https://unstop.com/hackathons/ml-wars-esya23-indraprastha-institute-of-information-technology-iiit-delhi-728756",
+                    "venue": "Online"
                 },
                 {
                     "category": "Research",
@@ -289,8 +289,8 @@ export default {
                     "image": "https://media.licdn.com/dms/image/D5622AQGqmvGNtGn_Fg/feedshare-shrink_2048_1536/0/1692537190402?e=1695254400&v=beta&t=-6NRdjwHJURi1BN_aXnNJRb4d_Thl-DEH9VyQHlbfVg",
                     "prize": 30000,
                     "desc": "Embark on an extraordinary journey at \"Prompt Craft\"! Unleash your creativity to awaken AI magic. Craft imaginative prompts, witness the synergy of minds and machines, and experience the fusion of innovation. Join us for an adventure like no other!\n\nParticipate in the event during Esya'23 on 25th and 26th of August at IIITD.\nTo register follow the link in bio.",
-                    "link": "https://unstop.com/hackathons/ml-wars-esya23-indraprastha-institute-of-information-technology-iiit-delhi-728756",
-                    "venue": "Online"
+                    "link": "https://unstop.com/competitions/prompt-wars-esya23-indraprastha-institute-of-information-technology-iiit-delhi-728755",
+                    "venue": "Offline"
                 }
             ]
 		}
