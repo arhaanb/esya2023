@@ -70,8 +70,9 @@ main {
 		margin-bottom: 1.5em;
 	}
 	.flexgrid {
-		flex-direction: column;
-		gap: 2em;
+		display: grid;
+		grid-gap: 3em;
+		grid-template-columns: repeat(autofit, minmax(200px, 1fr));
 	}
 	main {
 		margin: 0;
