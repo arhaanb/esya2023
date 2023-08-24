@@ -42,6 +42,8 @@ export default {
 				'igl.png',
 				'arista.png',
 				'bhartiya_urban.jpg',
+				'ideal.png',
+				'nodwin.jpeg',
 				'boompanda.jpg',
 				'candes.png',
 				'crac.png',
