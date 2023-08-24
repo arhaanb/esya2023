@@ -46,9 +46,10 @@ export default {
 				['Ayush Prusty', 'Events', '/teams/AyushPrusty.jpg'],
 				['Rudraksh Arora', 'Events', '/teams/Rudraksh.png'],
 				['Arhaan Bahadur', 'Webmaster', '/teams/ArhaanBahadur.jpeg'],
-				['Abhishek','web-developer','/teams/Abhishek.jpg'],
-				['Dhruv Jain', 'Web-developer', '/teams/DhruvJain.jpg'],
-				['Aditya Dahiya', 'web-developer', '/teams/AdityaDahiya.jpg'],
+				['Abhishek','Web Developer','/teams/Abhishek.jpg'],
+				['Dhruv Jain', 'Web Developer', '/teams/DhruvJain.jpg'],
+				['Aditya Dahiya', 'Web Developer', '/teams/AdityaDahiya.jpg'],
+				['Omash Arora', 'Design', '/omu.jpg'],
 				
 				
 			]

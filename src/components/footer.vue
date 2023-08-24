@@ -47,8 +47,20 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="line">
-				Made with ❤ by <u><a href="ieee.iiitd.edu.in">IEEE-IIIT Delhi</a></u> Team for Esya'23.
+				<h6 class="">
+					Made with ❤ by
+					<a href="ieee.iiitd.edu.in">IEEE-IIIT Delhi</a> Team for Esya'23.
+				</h6>
+				<h6 class="zero">
+					Built by <a href="https://arhaanb.com" target="_blank">Arhaan Bahadur</a>
+					<br />
+					Designed by
+					<a href="https://www.linkedin.com/in/omansh-arora/" target="_blank"
+						>Omansh Arora</a
+					>
+				</h6>
 			</div>
 			<br /><br />
 		</div>
@@ -62,6 +74,17 @@ main {
 }
 h5 {
 	font-size: 1em;
+}
+
+h6 {
+	color: #808080;
+	a {
+		color: rgb(255, 255, 255);
+		transition: 0.2s;
+	}
+	a:hover {
+		opacity: 0.5 !important;
+	}
 }
 
 .flexcol {
@@ -145,10 +168,12 @@ div.contactDetail {
 
 .line {
 	width: 100%;
-	height: 1.5px;
 	background-color: #000;
 	margin-bottom: 2.5em;
-	margin-top: 4em;
+	margin-top: 1em;
+	h6:first-child {
+		margin-bottom: 0.5em;
+	}
 }
 
 input[type='text'] {
