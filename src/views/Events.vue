@@ -179,7 +179,7 @@ export default {
                     "category": "Hackathon",
                     "event": "HackCOG",
                     "image": "https://media.licdn.com/dms/image/D5622AQEwzHbqtmpu7w/feedshare-shrink_2048_1536/0/1692475667235?e=1695254400&v=beta&t=CeiAM72-HfGVTLzDxvc3fWudmqJsNWje9NshFoElv58",
-                    "prize": 300000,
+                    "prize": 3000000,
                     "desc": "Join HackCOG, the ultimate cognitive computing & social sensing hackathon by Anubhuti Tech Innovation Hub, IIIT Delhi!\n\nCollaborate on challenges inspired by human thinking, solve societal issues, and win from a 30 Lakhs prize pool including grants under Chanakya and Prayas fellowship!\n\nConnect with tech enthusiasts and professionals, and make an impact on society through technology. Don't miss out!\n\nParticipate in the event during Esya'23 on 25th and 26th of August at IIITD.",
                     "link": "https://unstop.com/p/hackcog-esya23-indraprastha-institute-of-information-technology-iiit-delhi-733896",
                     "venue": "Offline"
