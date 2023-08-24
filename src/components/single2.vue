@@ -20,6 +20,11 @@
 						<h5 class="bold zero top">{{ time || null }}</h5>
 						<h5 class="bold zero btm">{{ location || null }}</h5>
 					</div>
+					<div>
+						<h5 class="zero subtitle">
+							presented by Reskill and ADC in collaboration with iHub Anubhuti-IIITD Foundation, IIIT Delhi.
+						</h5>
+					</div>
 				</div>
 			</div>
 		</div>
