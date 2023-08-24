@@ -9,8 +9,6 @@
 			/>
 		</div>
 
-		
-
 		<div class="flexgrid">
 			<Single
 				name="Mukul Kantiwal"
@@ -30,6 +28,13 @@
 				designation="Prompt Engineering Workshop"
 				image="https://media.licdn.com/dms/image/D4D03AQFrd9OSsVPQZA/profile-displayphoto-shrink_800_800/0/1686851884442?e=1698278400&v=beta&t=XKKIu4W-45j3gP-gRfa7ym7PXpBCTZQb5B-LKH6JTtE"
 				link="https://www.linkedin.com/in/siddharthchopra1/"
+			/>
+
+			<Single2
+				name="Dibyasom Puhan"
+				designation="Azure Cognitive Services Session"
+				image="https://media.licdn.com/dms/image/D4D03AQFUnCaIiy2F5Q/profile-displayphoto-shrink_800_800/0/1684607851541?e=1698278400&v=beta&t=lH2mHU04O4etc8zav6UQNEC2KCP0T_YyA55QeEWQicc"
+				link="https://www.linkedin.com/in/dibyasom-puhan-433852190/"
 			/>
 		</div>
 	</main>
