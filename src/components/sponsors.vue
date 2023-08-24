@@ -5,7 +5,7 @@
 		<h2 class="center akira heading">Co-Presented by</h2>
 		<div class="twologogrid">
 			<div
-	  class="imgcontain"
+				class="imgcontain"
 				v-for="im in presented_imgs"
 				style="display: flex; justify-content: center; align-items: center"
 				:key="im"
@@ -13,12 +13,12 @@
 				<img :src="`/sponsors/${im}`" alt="" />
 			</div>
 		</div>
-		<br/>
-		<br/>
+		<br />
+		<br />
 		<h3 class="center akira heading2">Partners</h3>
 		<div class="grid">
 			<div
-      class="imgcontain"
+				class="imgcontain"
 				v-for="im in imgs"
 				style="display: flex; justify-content: center; align-items: center"
 				:key="im"
@@ -62,10 +62,7 @@ export default {
 				'unstop.png',
 				'viral_fission.png'
 			],
-			presented_imgs: [
-				'akati.png',
-				'nixi.png'
-			]
+			presented_imgs: ['akati.png', 'nixi.png']
 		}
 	}
 }
@@ -81,13 +78,16 @@ export default {
 .twologogrid {
 	display: grid;
 	grid-gap: 3em;
-	grid-template-columns: repeat(1, 1fr);
+	grid-template-columns: repeat(2, 1fr);
+	.imgcontain {
+		padding: 2em;
+	}
 }
 
 .imgcontain {
-  background-color: #fff;
-  border-radius: 1em;
-  padding: 0.5em;
+	background-color: #fff;
+	border-radius: 1em;
+	padding: 0.5em;
 }
 
 .iiit {
@@ -133,9 +133,9 @@ export default {
 		grid-gap: 3em;
 		grid-template-columns: repeat(3, 1fr);
 	}
-  main {
-    margin: 3em 0 1em 0;
-  }
+	main {
+		margin: 3em 0 1em 0;
+	}
 	.titled {
 		font-size: 200%;
 		margin-bottom: 1.5em;
