@@ -47,6 +47,9 @@ export default {
 				'boompanda.jpg',
 				'candes.png',
 				'crac.png',
+				'azuredev.jpeg',
+				'azure.jpeg',
+				'reskill.jpeg',
 				'delhicardio.png',
 				'enord.jpeg',
 				'eraayastays.png',
@@ -78,7 +81,7 @@ export default {
 .twologogrid {
 	display: grid;
 	grid-gap: 3em;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(1, 1fr);
 }
 
 .imgcontain {
