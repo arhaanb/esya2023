@@ -16,6 +16,7 @@ declare module 'vue' {
     Footer: typeof import('./src/components/footer.vue')['default']
     NewEvent: typeof import('./src/components/NewEvent.vue')['default']
     Single: typeof import('./src/components/single.vue')['default']
+    Single2: typeof import('./src/components/single2.vue')['default']
     SingleCustom: typeof import('./src/components/SingleCustom.vue')['default']
     SingleEvent: typeof import('./src/components/SingleEvent.vue')['default']
     Speakers: typeof import('./src/components/speakers.vue')['default']

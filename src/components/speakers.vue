@@ -25,6 +25,12 @@
 				image="https://media.licdn.com/dms/image/C5603AQHVm6ZQesnu4A/profile-displayphoto-shrink_800_800/0/1650058406121?e=1697673600&v=beta&t=y1EkgrdbG5bZjOzbqL4RAqbvGrGP0stJ1m4odBCOAso"
 				link="https://www.linkedin.com/in/sanchayofficial/"
 			/>
+			<Single2
+				name="Siddharth Chopra"
+				designation="Prompt Engineering Workshop"
+				image="https://media.licdn.com/dms/image/D4D03AQFrd9OSsVPQZA/profile-displayphoto-shrink_800_800/0/1686851884442?e=1698278400&v=beta&t=XKKIu4W-45j3gP-gRfa7ym7PXpBCTZQb5B-LKH6JTtE"
+				link="https://www.linkedin.com/in/siddharthchopra1/"
+			/>
 		</div>
 	</main>
 </template>
@@ -44,20 +50,16 @@ main {
 }
 
 .flexgrid {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-
-	& > main {
-		flex: 1;
-	}
+	display: grid;
+	grid-gap: 3em;
+	grid-template-columns: repeat(2, 1fr);
 }
 
 .titled {
 	margin-bottom: 0.75em;
 	font-size: 6em;
 }
-@media (max-width: 750px) {
+@media (max-width: 900px) {
 	.grid {
 		display: grid;
 		grid-gap: 1em;
