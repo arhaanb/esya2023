@@ -9,7 +9,7 @@
 			<div class="grid">
 				<div v-for="i in team" :key="i" class="membercont">
 					<div class="member">
-						<img :src="i[2]" alt="link not opening">
+						<img :src="i[2]" alt="link not opening" />
 						<h4>{{ i[0] }}</h4>
 						<h5>{{ i[1] }}</h5>
 					</div>
@@ -46,12 +46,10 @@ export default {
 				['Ayush Prusty', 'Events', '/teams/AyushPrusty.jpg'],
 				['Rudraksh Arora', 'Events', '/teams/Rudraksh.png'],
 				['Arhaan Bahadur', 'Webmaster', '/teams/ArhaanBahadur.jpeg'],
-				['Abhishek','Web Developer','/teams/Abhishek.jpg'],
+				['Abhishek', 'Web Developer', '/teams/Abhishek.jpg'],
 				['Dhruv Jain', 'Web Developer', '/teams/DhruvJain.jpg'],
 				['Aditya Dahiya', 'Web Developer', '/teams/AdityaDahiya.jpg'],
-				['Omash Arora', 'Design', '/omu.jpg'],
-				
-				
+				['Omansh Arora', 'Design', '/omu.jpg']
 			]
 		}
 	}
@@ -63,7 +61,7 @@ export default {
 	display: grid;
 	grid-gap: 3em;
 	grid-template-columns: repeat(3, 1fr);
-  margin: auto 20%;
+	margin: auto 20%;
 }
 
 @media (max-width: 750px) {
@@ -71,7 +69,7 @@ export default {
 		display: grid;
 		grid-gap: 2em;
 		grid-template-columns: repeat(1, 1fr);
-    margin: auto;
+		margin: auto;
 	}
 }
 
