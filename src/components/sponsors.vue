@@ -57,6 +57,7 @@ export default {
 				'kyariyaan.png',
 				'lid.png',
 				'pnb.png',
+				'streax.jpeg',
 				'royalenfiled.png',
 				'shuraa.png',
 				'unstop.png',
