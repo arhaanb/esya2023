@@ -64,12 +64,11 @@ export default {
 				'kyariyaan.png',
 				'lid.png',
 				'pnb.png',
-				'streax.jpeg',
+				{ img: 'streax.png', box: 'black' },
 				'royalenfiled.png',
 				'shuraa.png',
 				'unstop.png',
-				'viral_fission.png',
-				{ img: 'streax.png', box: 'black' }
+				'viral_fission.png'
 			],
 			presented_imgs: ['akati.png', 'nixi.png']
 		}
