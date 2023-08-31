@@ -5,9 +5,14 @@
 		<h2 class="center akira heading">Co-Presented by</h2>
 		<div class="twologogrid">
 			<div
-				class="imgcontain"
+				class="imgcontain notsquare"
 				v-for="im in presented_imgs"
-				style="display: flex; justify-content: center; align-items: center"
+				style="
+					background-color: #fff;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				"
 				:key="im"
 			>
 				<img :src="`/sponsors/${im}`" alt="" />
@@ -20,10 +25,12 @@
 			<div
 				class="imgcontain"
 				v-for="im in imgs"
-				style="display: flex; justify-content: center; align-items: center"
+				:style="
+					im?.box ? `background-color: ${im.box}` : 'background-color: #fff;'
+				"
 				:key="im"
 			>
-				<img :src="`/sponsors/${im}`" alt="" />
+				<img :src="`/sponsors/${im?.img || im}`" alt="" />
 			</div>
 		</div>
 
@@ -39,20 +46,20 @@ export default {
 	data() {
 		return {
 			imgs: [
-				'igl.png',
-				'arista.png',
+				{ img: 'igl.png', box: '#367848' },
+				{ img: 'arista.png', box: 'black' },
 				'bhartiya_urban.jpg',
 				'ideal.png',
-				'nodwin.jpeg',
+				{ img: 'nodwin.jpeg', box: 'black' },
 				'boompanda.jpg',
 				'candes.png',
 				'crac.png',
-				'azuredev.jpeg',
-				'azure.jpeg',
-				'reskill.jpeg',
+				'azuredev.png',
+				'azure.png',
+				'reskill.png',
 				'delhicardio.png',
-				'enord.jpeg',
-				'eraayastays.png',
+				{ img: 'enord.jpeg', box: 'black' },
+				{ img: 'eraayastays.png', box: '#72754F' },
 				'ihub.png',
 				'kyariyaan.png',
 				'lid.png',
@@ -60,7 +67,8 @@ export default {
 				'royalenfiled.png',
 				'shuraa.png',
 				'unstop.png',
-				'viral_fission.png'
+				'viral_fission.png',
+				{ img: 'streax.png', box: 'black' }
 			],
 			presented_imgs: ['akati.png', 'nixi.png']
 		}
@@ -85,9 +93,14 @@ export default {
 }
 
 .imgcontain {
-	background-color: #fff;
 	border-radius: 1em;
 	padding: 0.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&:not(.notsquare) {
+		aspect-ratio: 1;
+	}
 }
 
 .iiit {
@@ -113,8 +126,8 @@ export default {
 }
 
 .heading2 {
-	font-size: 2em;
-	margin-bottom: 0.5em;
+	font-size: 3em;
+	margin-bottom: 1em;
 }
 
 @media (max-width: 750px) {
